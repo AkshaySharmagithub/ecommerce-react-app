@@ -1,0 +1,2 @@
+- Update Register.jsx: Use Tailwind CSS for professional UI, keep name, email, password fields.
+- Update Login.jsx: Make it a login-only component with email and password, use Tailwind, remove name field and toggle.
