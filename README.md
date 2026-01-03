@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-=======
+
 ## 🚀 Live Demo
-🔗 https://guileless-griffin-57da47.netlify.app
+🔗 extraordinary-croissant-7d70a0.netlify.app
 
 
 
