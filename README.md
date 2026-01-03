@@ -1,6 +1,6 @@
 
 ## 🚀 Live Demo
-🔗 extraordinary-croissant-7d70a0.netlify.app
+https://extraordinary-croissant-7d70a0.netlify.app/
 
 
 
