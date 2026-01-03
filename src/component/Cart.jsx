@@ -25,7 +25,7 @@ const Cart = () => {
   }
 
   const total = cart.reduce(
-    (sum, item) => sum + item.price * item.qty,
+    (sum, item) => sum + (item.discount_price || item.price) * item.qty,
     0
   );
 
@@ -60,14 +60,14 @@ const Cart = () => {
           {/* LEFT */}
           <div style={leftStyle}>
             <img
-              src={item.image}
-              alt={item.title}
+              src={item.images ? item.images[0] : item.image}
+              alt={item.product_name || item.title}
               style={imgStyle}
             />
 
             <div>
-              <h4>{item.title}</h4>
-              <p>₹ {item.price}</p>
+              <h4>{item.product_name || item.title}</h4>
+              <p>₹ {item.discount_price || item.price}</p>
               
               <div style={{ display: "flex", alignItems: "center", gap: "10px", marginTop: "10px" }}>
                 <button onClick={() => removeOne(item.id)} style={qtyBtnStyle}>-</button>

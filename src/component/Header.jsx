@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 const Header = () => {
   const [search, setSearch] = useState("");
   const [open, setOpen] = useState(false);
-  const [screen, setScreen] = useState("desktop"); 
+  const [screen, setScreen] = useState("desktop");
   const navigate = useNavigate();
 
   useEffect(() => {
